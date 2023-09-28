@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Hunter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="superheroDetails"></div>
+        </div>
+    </div>
+    <div id="background-overlay" class="overlay"></div> 
+    <header>
+        <h1>Superhero Hunter</h1>
+        <input type="text" id="searchInput" placeholder="Search Superheroes">
+        <button id="searchButton">Search</button>
+    </header>
+
+    <main>
+        <div id="searchResults" class="grid-container">
+            <!-- This is where the search results will be displayed -->
+        </div>
+    </main>
+
+    <footer>
+        <h2>Favorites</h2>
+        <div id="favorites">
+            <!-- This is where the favorite superheroes will be displayed -->
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
